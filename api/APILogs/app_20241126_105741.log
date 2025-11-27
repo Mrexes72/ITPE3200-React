@@ -1,0 +1,717 @@
+2024-11-26 10:57:42.268 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-11-26 10:57:42.311 +01:00 [INF] Now listening on: https://localhost:7285
+2024-11-26 10:57:42.313 +01:00 [INF] Now listening on: http://localhost:5269
+2024-11-26 10:57:42.317 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 10:57:42.320 +01:00 [INF] Hosting environment: Development
+2024-11-26 10:57:42.322 +01:00 [INF] Content root path: C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api
+2024-11-26 10:57:42.556 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-11-26 10:57:42.584 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 29.0707ms
+2024-11-26 10:57:42.590 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-11-26 10:57:42.605 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/favicon.ico - null null
+2024-11-26 10:57:42.613 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/favicon.ico - 499 null null 8.3537ms
+2024-11-26 10:57:42.613 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/favicon.ico, Response status code: 499
+2024-11-26 10:57:45.533 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7285/api/imageapi/create - null null
+2024-11-26 10:57:45.536 +01:00 [INF] CORS policy execution successful.
+2024-11-26 10:57:45.537 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7285/api/imageapi/create - 204 null null 3.6453ms
+2024-11-26 10:57:45.538 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7285/api/imageapi/create - application/json 94
+2024-11-26 10:57:45.540 +01:00 [INF] CORS policy execution successful.
+2024-11-26 10:57:45.541 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.Create (api)'
+2024-11-26 10:57:45.561 +01:00 [INF] Route matched with {action = "Create", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(systemOut.DTOs.ImageDto) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 10:57:45.796 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'systemOut.Models.Image'.
+2024-11-26 10:57:45.830 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.Create (api) in 266.2429ms
+2024-11-26 10:57:45.830 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.Create (api)'
+2024-11-26 10:57:45.833 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7285/api/imageapi/create - 201 151 application/json; charset=utf-8 294.2853ms
+2024-11-26 10:57:45.879 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 10:57:45.879 +01:00 [INF] CORS policy execution successful.
+2024-11-26 10:57:45.879 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 10:57:45.883 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 10:57:45.892 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 10:57:45.892 +01:00 [INF] CORS policy execution successful.
+2024-11-26 10:57:45.893 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 10:57:45.893 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 10:57:46.018 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 10:57:46.018 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 10:57:46.021 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 128.7127ms
+2024-11-26 10:57:46.021 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 138.8442ms
+2024-11-26 10:57:46.022 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 10:57:46.022 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 10:57:46.022 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 499 application/json; charset=utf-8 143.5554ms
+2024-11-26 10:57:46.022 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 499 application/json; charset=utf-8 130.1495ms
+2024-11-26 10:57:51.708 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7285/api/imageapi/delete/8 - null null
+2024-11-26 10:57:51.708 +01:00 [INF] CORS policy execution successful.
+2024-11-26 10:57:51.708 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7285/api/imageapi/delete/8 - 204 null null 0.7088ms
+2024-11-26 10:57:51.710 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7285/api/imageapi/delete/8 - null null
+2024-11-26 10:57:51.710 +01:00 [INF] CORS policy execution successful.
+2024-11-26 10:57:51.710 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.DeleteConfirmed (api)'
+2024-11-26 10:57:51.714 +01:00 [INF] Route matched with {action = "DeleteConfirmed", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirmed(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 10:57:51.816 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-26 10:57:51.816 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.DeleteConfirmed (api) in 101.8278ms
+2024-11-26 10:57:51.816 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.DeleteConfirmed (api)'
+2024-11-26 10:57:51.816 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7285/api/imageapi/delete/8 - 204 null null 106.3991ms
+2024-11-26 11:06:38.550 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:06:38.550 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:06:38.550 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:06:38.550 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:06:38.553 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:06:38.553 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:06:38.553 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:06:38.553 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:38.553 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:38.553 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:06:38.553 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:38.554 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:38.558 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:06:38.558 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:06:38.558 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:06:38.558 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:06:38.597 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:06:38.599 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 40.4384ms
+2024-11-26 11:06:38.599 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:38.600 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 49.5705ms
+2024-11-26 11:06:38.750 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:06:38.750 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:06:38.751 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 192.0653ms
+2024-11-26 11:06:38.751 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:06:38.751 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:38.751 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 192.1997ms
+2024-11-26 11:06:38.751 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 201.253ms
+2024-11-26 11:06:38.751 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:38.751 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 192.2664ms
+2024-11-26 11:06:38.751 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:38.751 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 201.0417ms
+2024-11-26 11:06:38.751 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 201.5714ms
+2024-11-26 11:06:57.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:06:57.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:06:57.504 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:06:57.504 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:06:57.504 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:06:57.505 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:06:57.505 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:57.505 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:06:57.508 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:06:57.508 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:06:57.508 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 4.0143ms
+2024-11-26 11:06:57.508 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 3.5359ms
+2024-11-26 11:06:57.509 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:06:57.509 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:06:57.509 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 4.7617ms
+2024-11-26 11:06:57.509 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 4.7882ms
+2024-11-26 11:07:42.583 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:07:42.583 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:07:42.584 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:07:42.585 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:07:42.585 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:42.585 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:07:42.585 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:07:42.586 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:07:42.593 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:07:42.593 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:07:42.594 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 7.5164ms
+2024-11-26 11:07:42.594 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 7.5549ms
+2024-11-26 11:07:42.594 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:07:42.594 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:42.594 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 11.1219ms
+2024-11-26 11:07:42.594 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 11.1347ms
+2024-11-26 11:07:50.125 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:07:50.125 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:07:50.125 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:07:50.125 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:07:50.125 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:07:50.125 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:07:50.125 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:07:50.125 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:07:50.125 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:07:50.125 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:07:50.125 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:50.125 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:50.125 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:07:50.125 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:50.126 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:07:50.126 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:07:50.126 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:07:50.126 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:07:50.126 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:07:50.126 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:07:50.132 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:07:50.132 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 6.2665ms
+2024-11-26 11:07:50.133 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:07:50.133 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:07:50.133 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 8.5066ms
+2024-11-26 11:07:50.133 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:07:50.133 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:07:50.135 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 8.6604ms
+2024-11-26 11:07:50.135 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:07:50.135 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:50.135 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 8.7191ms
+2024-11-26 11:07:50.135 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:50.135 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:50.135 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 9.4469ms
+2024-11-26 11:07:50.135 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:07:50.135 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 10.0306ms
+2024-11-26 11:07:50.136 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:07:50.137 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 11.5533ms
+2024-11-26 11:07:50.137 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:50.138 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 12.5855ms
+2024-11-26 11:07:50.139 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:07:50.139 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 13.5011ms
+2024-11-26 11:07:50.140 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:07:50.140 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 14.3378ms
+2024-11-26 11:07:50.140 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:07:50.140 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 4.9562ms
+2024-11-26 11:07:50.140 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:07:50.140 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 6.4666ms
+2024-11-26 11:10:04.146 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:10:04.146 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:10:04.146 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:10:04.148 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:10:04.148 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:04.148 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:10:04.148 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:10:04.149 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:10:04.180 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:10:04.180 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:10:04.181 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 31.2046ms
+2024-11-26 11:10:04.181 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 32.3007ms
+2024-11-26 11:10:04.181 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:10:04.181 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:04.181 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 35.3853ms
+2024-11-26 11:10:04.181 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 35.3638ms
+2024-11-26 11:10:16.494 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:10:16.495 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:10:16.495 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:10:16.495 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:10:16.495 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:10:16.495 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:10:16.495 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:10:16.495 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:10:16.495 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:10:16.495 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:10:16.495 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:10:16.495 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:16.495 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:16.496 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:10:16.496 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:10:16.496 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:16.496 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:10:16.496 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:10:16.496 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:10:16.496 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:10:16.500 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:10:16.501 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:10:16.501 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:16.501 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:10:16.502 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:10:16.503 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 7.5193ms
+2024-11-26 11:10:16.503 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:16.503 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:10:16.503 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 8.5678ms
+2024-11-26 11:10:16.503 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 7.7151ms
+2024-11-26 11:10:16.504 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:10:16.504 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 10.3327ms
+2024-11-26 11:10:16.505 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:10:16.506 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 10.007ms
+2024-11-26 11:10:16.506 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:10:16.506 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 10.9006ms
+2024-11-26 11:10:16.508 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:10:16.509 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 12.9792ms
+2024-11-26 11:10:16.509 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:16.509 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:10:16.509 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 13.7307ms
+2024-11-26 11:10:16.510 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 13.5294ms
+2024-11-26 11:10:16.510 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:16.510 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 15.197ms
+2024-11-26 11:10:16.510 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:10:16.510 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 9.1909ms
+2024-11-26 11:10:16.511 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:10:16.512 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 11.2515ms
+2024-11-26 11:11:27.746 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:11:27.746 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:11:27.746 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:11:27.746 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:11:27.746 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:11:27.746 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:11:27.746 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:11:27.748 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:11:27.753 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:11:27.754 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 6.0368ms
+2024-11-26 11:11:27.754 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:11:27.754 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:11:27.754 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 8.4457ms
+2024-11-26 11:11:27.754 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 6.7398ms
+2024-11-26 11:11:27.754 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:11:27.754 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 8.8794ms
+2024-11-26 11:14:59.335 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:14:59.335 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:14:59.335 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:14:59.335 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:14:59.336 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:14:59.336 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:14:59.336 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:14:59.336 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:14:59.338 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:14:59.339 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:14:59.339 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 2.9705ms
+2024-11-26 11:14:59.339 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 2.9295ms
+2024-11-26 11:14:59.339 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:14:59.339 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:14:59.339 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 3.603ms
+2024-11-26 11:14:59.339 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 3.6035ms
+2024-11-26 11:15:23.196 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:15:23.196 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:15:23.196 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:23.196 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:23.196 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:15:23.196 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:23.197 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:15:23.197 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:15:23.200 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:23.200 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:23.200 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 3.4189ms
+2024-11-26 11:15:23.200 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 3.4479ms
+2024-11-26 11:15:23.200 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:23.200 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:15:23.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 4.225ms
+2024-11-26 11:15:23.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 4.3149ms
+2024-11-26 11:15:24.806 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:15:24.806 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:15:24.807 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:24.807 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:24.807 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:15:24.807 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:24.807 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:15:24.807 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:24.807 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:15:24.807 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:24.807 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:15:24.808 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:24.808 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:15:24.808 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:15:24.808 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:15:24.810 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:15:24.810 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:15:24.810 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:24.810 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:24.810 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:15:24.812 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:15:24.812 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:24.812 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:24.812 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:15:24.815 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:24.816 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 7.5532ms
+2024-11-26 11:15:24.816 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:24.816 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:24.816 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 9.2681ms
+2024-11-26 11:15:24.816 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 8.6492ms
+2024-11-26 11:15:24.817 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:15:24.817 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 11.1888ms
+2024-11-26 11:15:24.817 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:24.818 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 10.4751ms
+2024-11-26 11:15:24.818 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:24.818 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:24.818 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 11.8475ms
+2024-11-26 11:15:24.820 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 9.6581ms
+2024-11-26 11:15:24.820 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:15:24.820 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 12.2347ms
+2024-11-26 11:15:24.822 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:24.822 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 12.1679ms
+2024-11-26 11:15:24.822 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:24.822 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 12.4642ms
+2024-11-26 11:15:24.823 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:24.823 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 11.0772ms
+2024-11-26 11:15:24.823 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:24.823 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 11.6423ms
+2024-11-26 11:15:51.078 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:15:51.079 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:15:51.079 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:51.079 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:15:51.079 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:15:51.079 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:51.079 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:15:51.079 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:15:51.085 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:51.085 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:15:51.085 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 5.8491ms
+2024-11-26 11:15:51.085 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 5.867ms
+2024-11-26 11:15:51.085 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:15:51.085 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:15:51.085 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 6.9213ms
+2024-11-26 11:15:51.085 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 7.0748ms
+2024-11-26 11:16:38.828 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:16:38.828 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:16:38.829 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:16:38.829 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:16:38.829 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:16:38.829 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:16:38.829 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:16:38.830 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:16:38.837 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:16:38.837 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:16:38.837 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 7.079ms
+2024-11-26 11:16:38.837 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:16:38.837 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 8.275ms
+2024-11-26 11:16:38.837 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 9.3258ms
+2024-11-26 11:16:38.837 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:16:38.837 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 9.2063ms
+2024-11-26 11:16:55.586 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:16:55.587 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:16:55.587 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:16:55.587 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:16:55.587 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:16:55.587 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:16:55.587 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:16:55.587 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:16:55.590 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:16:55.590 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:16:55.590 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 3.4531ms
+2024-11-26 11:16:55.590 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:16:55.590 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 3.5448ms
+2024-11-26 11:16:55.590 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:16:55.591 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 4.0681ms
+2024-11-26 11:16:55.591 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 4.3308ms
+2024-11-26 11:17:09.924 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:17:09.924 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:17:09.924 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:17:09.924 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:17:09.924 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:17:09.924 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:17:09.924 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:17:09.924 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:17:09.926 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:17:09.927 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 2.9983ms
+2024-11-26 11:17:09.927 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:17:09.927 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:17:09.927 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 3.4404ms
+2024-11-26 11:17:09.927 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 3.0674ms
+2024-11-26 11:17:09.927 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:17:09.927 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 3.6513ms
+2024-11-26 11:19:32.135 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:19:32.136 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:32.136 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:32.136 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:19:32.136 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:19:32.136 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:32.136 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:32.137 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:19:32.142 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:32.142 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 6.0026ms
+2024-11-26 11:19:32.142 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:32.142 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:32.142 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 6.8482ms
+2024-11-26 11:19:32.142 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 5.5534ms
+2024-11-26 11:19:32.142 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:32.143 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 6.3004ms
+2024-11-26 11:19:33.591 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:19:33.591 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:19:33.592 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:33.592 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:33.592 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:19:33.592 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:19:33.594 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:19:33.594 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:19:33.607 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:19:33.608 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:19:33.818 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 223.6727ms
+2024-11-26 11:19:33.818 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 223.5742ms
+2024-11-26 11:19:33.819 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:19:33.819 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:19:33.821 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 229.4174ms
+2024-11-26 11:19:33.821 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 229.4187ms
+2024-11-26 11:19:33.829 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-26 11:19:33.829 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-26 11:19:33.829 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:33.829 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:33.829 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-26 11:19:33.829 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-26 11:19:33.832 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-26 11:19:33.832 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-26 11:19:33.842 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:33.842 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:33.844 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 12.4102ms
+2024-11-26 11:19:33.844 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 12.3881ms
+2024-11-26 11:19:33.844 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-26 11:19:33.844 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-26 11:19:33.844 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 736 application/json; charset=utf-8 15.6208ms
+2024-11-26 11:19:33.844 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 736 application/json; charset=utf-8 15.4239ms
+2024-11-26 11:19:33.849 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/10 - null null
+2024-11-26 11:19:33.850 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:33.850 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/10 - null null
+2024-11-26 11:19:33.850 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:19:33.850 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:33.850 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:19:33.852 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:19:33.852 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:19:33.855 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/10 - null null
+2024-11-26 11:19:33.855 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/10 - null null
+2024-11-26 11:19:33.855 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:33.855 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:19:33.855 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:33.856 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:19:33.856 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:19:33.856 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:19:33.860 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-26 11:19:33.861 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-26 11:19:33.862 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-26 11:19:33.864 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-26 11:19:33.973 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 117.8404ms
+2024-11-26 11:19:33.974 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:19:33.974 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/10 - 200 45634 application/json; charset=utf-8 118.8338ms
+2024-11-26 11:19:33.975 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 119.3492ms
+2024-11-26 11:19:33.975 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 122.8476ms
+2024-11-26 11:19:33.975 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:19:33.975 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:19:33.976 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/10 - 200 45634 application/json; charset=utf-8 126.3616ms
+2024-11-26 11:19:33.976 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/10 - 200 45634 application/json; charset=utf-8 120.4168ms
+2024-11-26 11:19:33.995 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 143.0358ms
+2024-11-26 11:19:33.995 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:19:33.995 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/10 - 200 45634 application/json; charset=utf-8 145.847ms
+2024-11-26 11:19:36.147 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:19:36.148 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:36.148 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:19:36.148 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:19:36.148 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:19:36.148 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:36.148 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:19:36.148 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:19:36.151 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:19:36.152 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:19:36.209 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 60.7012ms
+2024-11-26 11:19:36.209 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 60.9049ms
+2024-11-26 11:19:36.209 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:19:36.209 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:19:36.209 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 61.1324ms
+2024-11-26 11:19:36.209 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 61.7095ms
+2024-11-26 11:19:36.219 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:19:36.220 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:36.220 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:19:36.220 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:36.220 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:19:36.220 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:19:36.220 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:19:36.220 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:36.220 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:36.220 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:36.220 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:36.220 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:19:36.220 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:19:36.220 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:19:36.220 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:19:36.220 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:19:36.223 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:36.224 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 3.8593ms
+2024-11-26 11:19:36.224 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:36.224 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:36.224 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 4.0431ms
+2024-11-26 11:19:36.224 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:36.224 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 4.6045ms
+2024-11-26 11:19:36.225 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 5.0731ms
+2024-11-26 11:19:36.225 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:36.225 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 5.1922ms
+2024-11-26 11:19:36.225 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:19:36.226 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 5.6703ms
+2024-11-26 11:19:36.226 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:36.226 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 5.9147ms
+2024-11-26 11:19:36.226 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:19:36.226 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 6.5943ms
+2024-11-26 11:19:57.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:19:57.419 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:57.419 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:57.419 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:19:57.420 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:19:57.420 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:19:57.420 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:19:57.420 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:19:57.425 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:57.425 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 5.4594ms
+2024-11-26 11:19:57.425 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:19:57.425 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:19:57.425 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 5.7158ms
+2024-11-26 11:19:57.425 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 6.5011ms
+2024-11-26 11:19:57.425 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:19:57.426 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 7.1632ms
+2024-11-26 11:20:06.827 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7285/api/imageapi/update/2 - null null
+2024-11-26 11:20:06.827 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:06.827 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7285/api/imageapi/update/2 - 204 null null 0.3359ms
+2024-11-26 11:20:06.828 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7285/api/imageapi/update/2 - application/json 111
+2024-11-26 11:20:06.828 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:06.828 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.Update (api)'
+2024-11-26 11:20:06.832 +01:00 [INF] Route matched with {action = "Update", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, systemOut.DTOs.ImageDto) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:20:06.840 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:20:06.870 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.Update (api) in 38.5833ms
+2024-11-26 11:20:06.870 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.Update (api)'
+2024-11-26 11:20:06.870 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7285/api/imageapi/update/2 - 200 62304 application/json; charset=utf-8 42.1629ms
+2024-11-26 11:20:06.880 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:20:06.880 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:06.880 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:20:06.881 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:20:06.881 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:20:06.881 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:06.881 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:20:06.881 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:20:06.883 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:20:06.883 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 2.8938ms
+2024-11-26 11:20:06.884 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:20:06.884 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 3.8491ms
+2024-11-26 11:20:06.884 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:20:06.884 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 2.9028ms
+2024-11-26 11:20:06.884 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:20:06.884 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 3.2999ms
+2024-11-26 11:20:14.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:20:14.527 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:14.527 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:20:14.528 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:20:14.528 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:20:14.528 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:14.528 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:20:14.528 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:20:14.533 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:20:14.534 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:20:14.589 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 60.3835ms
+2024-11-26 11:20:14.589 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 60.8617ms
+2024-11-26 11:20:14.589 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:20:14.589 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:20:14.589 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 61.3436ms
+2024-11-26 11:20:14.589 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 61.9145ms
+2024-11-26 11:20:14.596 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-26 11:20:14.596 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-26 11:20:14.597 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:14.597 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:14.597 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-26 11:20:14.597 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-26 11:20:14.597 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-26 11:20:14.597 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-26 11:20:14.601 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:20:14.602 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:20:14.602 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 4.6401ms
+2024-11-26 11:20:14.602 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-26 11:20:14.602 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 4.7551ms
+2024-11-26 11:20:14.602 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-26 11:20:14.602 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 736 application/json; charset=utf-8 6.4851ms
+2024-11-26 11:20:14.602 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 736 application/json; charset=utf-8 6.1951ms
+2024-11-26 11:20:14.612 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/10 - null null
+2024-11-26 11:20:14.613 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/10 - null null
+2024-11-26 11:20:14.613 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/10 - null null
+2024-11-26 11:20:14.613 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/10 - null null
+2024-11-26 11:20:14.613 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:14.613 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:14.613 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:20:14.613 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:14.613 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:20:14.613 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:14.613 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:20:14.613 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:20:14.613 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:20:14.613 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:20:14.613 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:20:14.613 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:20:14.616 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-26 11:20:14.617 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-26 11:20:14.618 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-26 11:20:14.620 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-26 11:20:14.774 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 160.5882ms
+2024-11-26 11:20:14.774 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:20:14.775 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/10 - 200 45634 application/json; charset=utf-8 162.3086ms
+2024-11-26 11:20:14.775 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 161.7948ms
+2024-11-26 11:20:14.776 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:20:14.776 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 162.4749ms
+2024-11-26 11:20:14.776 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:20:14.776 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/10 - 200 45634 application/json; charset=utf-8 162.9715ms
+2024-11-26 11:20:14.776 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/10 - 200 45634 application/json; charset=utf-8 163.1098ms
+2024-11-26 11:20:14.782 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 168.5504ms
+2024-11-26 11:20:14.782 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-26 11:20:14.782 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/10 - 200 45634 application/json; charset=utf-8 169.2496ms
+2024-11-26 11:20:16.464 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:20:16.464 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:16.464 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:20:16.464 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:20:16.464 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:16.464 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:20:16.464 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:20:16.464 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:20:16.467 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:20:16.468 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:20:16.526 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 61.0882ms
+2024-11-26 11:20:16.526 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 61.1532ms
+2024-11-26 11:20:16.526 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:20:16.526 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:20:16.526 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 62.1512ms
+2024-11-26 11:20:16.526 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 61.8101ms
+2024-11-26 11:20:16.539 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:20:16.540 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:20:16.540 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:16.540 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:16.540 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:20:16.540 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:20:16.540 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:20:16.540 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:20:16.541 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:20:16.541 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:16.542 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:20:16.542 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:20:16.543 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:20:16.543 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 3.0753ms
+2024-11-26 11:20:16.543 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:20:16.543 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 3.6858ms
+2024-11-26 11:20:16.545 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:20:16.545 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:20:16.545 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:20:16.545 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:20:16.545 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 4.573ms
+2024-11-26 11:20:16.545 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:20:16.545 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:20:16.545 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 5.7758ms
+2024-11-26 11:20:16.546 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:20:16.546 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 3.4402ms
+2024-11-26 11:20:16.546 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:20:16.546 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 4.4487ms
+2024-11-26 11:20:16.547 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:20:16.547 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 2.6416ms
+2024-11-26 11:20:16.547 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:20:16.547 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 2.9365ms
+2024-11-26 11:26:54.948 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:26:54.948 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:26:54.948 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:26:54.948 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:26:54.949 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:26:54.949 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:26:54.949 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:26:54.949 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:26:54.951 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:26:54.951 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:26:54.951 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:26:54.951 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:26:54.959 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:26:54.959 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 9.8087ms
+2024-11-26 11:26:54.959 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:26:54.959 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:26:54.959 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 11.6071ms
+2024-11-26 11:26:54.960 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 9.3174ms
+2024-11-26 11:26:54.960 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:26:54.960 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 12.1699ms
+2024-11-26 11:26:54.960 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:26:54.990 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 39.2219ms
+2024-11-26 11:26:54.991 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:26:54.991 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 39.9179ms
+2024-11-26 11:27:04.056 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/getimages - null null
+2024-11-26 11:27:04.056 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-26 11:27:04.056 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:27:04.056 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:27:04.057 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/imageapi/2 - null null
+2024-11-26 11:27:04.057 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:27:04.057 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:27:04.057 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-26 11:27:04.057 +01:00 [INF] CORS policy execution successful.
+2024-11-26 11:27:04.057 +01:00 [INF] Executing endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:27:04.057 +01:00 [INF] Route matched with {action = "GetImages", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImages() on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:27:04.057 +01:00 [INF] Route matched with {action = "GetImage", controller = "ImageAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetImage(Int32) on controller systemOut.Controllers.ImageAPIController (api).
+2024-11-26 11:27:04.059 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:27:04.060 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 3.0998ms
+2024-11-26 11:27:04.060 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-26 11:27:04.060 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 220 application/json; charset=utf-8 4.1626ms
+2024-11-26 11:27:04.060 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Image, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.ImageDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-26 11:27:04.061 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImages (api) in 4.1779ms
+2024-11-26 11:27:04.061 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImages (api)'
+2024-11-26 11:27:04.061 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/getimages - 200 375 application/json; charset=utf-8 5.0445ms
+2024-11-26 11:27:04.061 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ImageProxy'.
+2024-11-26 11:27:04.098 +01:00 [INF] Executed action systemOut.Controllers.ImageAPIController.GetImage (api) in 41.5439ms
+2024-11-26 11:27:04.098 +01:00 [INF] Executed endpoint 'systemOut.Controllers.ImageAPIController.GetImage (api)'
+2024-11-26 11:27:04.099 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/imageapi/2 - 200 62304 application/json; charset=utf-8 42.0967ms

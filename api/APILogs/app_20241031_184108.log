@@ -1,0 +1,49 @@
+2024-10-31 18:41:09.696 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-10-31 18:41:09.732 +01:00 [INF] Now listening on: https://localhost:7285
+2024-10-31 18:41:09.734 +01:00 [INF] Now listening on: http://localhost:5269
+2024-10-31 18:41:09.738 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-31 18:41:09.740 +01:00 [INF] Hosting environment: Development
+2024-10-31 18:41:09.741 +01:00 [INF] Content root path: C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api
+2024-10-31 18:41:09.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-10-31 18:41:10.010 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 29.0674ms
+2024-10-31 18:41:10.015 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-10-31 18:41:11.838 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-10-31 18:41:11.838 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-10-31 18:41:11.842 +01:00 [INF] CORS policy execution successful.
+2024-10-31 18:41:11.842 +01:00 [INF] CORS policy execution successful.
+2024-10-31 18:41:11.843 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:41:11.843 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:41:11.857 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-10-31 18:41:11.857 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-10-31 18:41:12.021 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-31 18:41:12.021 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-31 18:41:12.095 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 235.5066ms
+2024-10-31 18:41:12.095 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 235.5067ms
+2024-10-31 18:41:12.095 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:41:12.095 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:41:12.101 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 145 application/json; charset=utf-8 263.3524ms
+2024-10-31 18:41:12.101 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 145 application/json; charset=utf-8 263.4046ms
+2024-10-31 18:41:12.890 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-10-31 18:41:12.892 +01:00 [INF] CORS policy execution successful.
+2024-10-31 18:41:12.892 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:41:12.892 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-10-31 18:41:12.935 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-31 18:41:12.935 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 43.3957ms
+2024-10-31 18:41:12.935 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:41:12.936 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 145 application/json; charset=utf-8 45.9264ms
+2024-10-31 18:41:33.923 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-10-31 18:41:33.923 +01:00 [INF] CORS policy execution successful.
+2024-10-31 18:41:33.923 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:41:33.923 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-10-31 18:41:33.927 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-31 18:41:33.928 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 4.4261ms
+2024-10-31 18:41:33.928 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:41:33.928 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 145 application/json; charset=utf-8 5.7351ms
+2024-10-31 18:42:43.909 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-10-31 18:42:43.909 +01:00 [INF] CORS policy execution successful.
+2024-10-31 18:42:43.910 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:42:43.910 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-10-31 18:42:43.912 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-31 18:42:43.913 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 2.8595ms
+2024-10-31 18:42:43.913 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-31 18:42:43.913 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 145 application/json; charset=utf-8 3.7578ms

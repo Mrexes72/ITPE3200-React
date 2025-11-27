@@ -1,0 +1,673 @@
+2024-11-07 10:05:42.442 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-11-07 10:05:42.490 +01:00 [INF] Now listening on: https://localhost:7285
+2024-11-07 10:05:42.493 +01:00 [INF] Now listening on: http://localhost:5269
+2024-11-07 10:05:42.499 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-07 10:05:42.501 +01:00 [INF] Hosting environment: Development
+2024-11-07 10:05:42.502 +01:00 [INF] Content root path: C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api
+2024-11-07 10:05:42.796 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-11-07 10:05:42.824 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 29.9688ms
+2024-11-07 10:05:42.830 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-11-07 10:06:00.613 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/images/bruker2/bruker2.jpg - null null
+2024-11-07 10:06:00.642 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/images/bruker1/bruker1.jpg - null null
+2024-11-07 10:06:00.642 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/images/bruker3/bruker3.jpg - null null
+2024-11-07 10:06:00.717 +01:00 [INF] Sending file. Request path: '/images/bruker3/bruker3.jpg'. Physical path: 'C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api\wwwroot\images\bruker3\bruker3.jpg'
+2024-11-07 10:06:00.721 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/images/bruker3/bruker3.jpg - 200 651609 image/jpeg 78.7432ms
+2024-11-07 10:06:00.725 +01:00 [INF] Sending file. Request path: '/images/bruker2/bruker2.jpg'. Physical path: 'C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api\wwwroot\images\bruker2\bruker2.jpg'
+2024-11-07 10:06:00.725 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/images/bruker2/bruker2.jpg - 200 1185535 image/jpeg 111.4005ms
+2024-11-07 10:06:00.747 +01:00 [INF] Sending file. Request path: '/images/bruker1/bruker1.jpg'. Physical path: 'C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api\wwwroot\images\bruker1\bruker1.jpg'
+2024-11-07 10:06:00.747 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/images/bruker1/bruker1.jpg - 200 2136966 image/jpeg 105.0297ms
+2024-11-07 10:06:06.740 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:06:06.743 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:06:06.745 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:06:06.769 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:06:06.922 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:06:06.993 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 222.1969ms
+2024-11-07 10:06:06.994 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:06:06.999 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 259.0035ms
+2024-11-07 10:06:07.924 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:06:07.926 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:06:07.926 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:06:07.933 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:06:07.953 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:06:07.953 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:06:07.953 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:06:07.953 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:06:08.024 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:06:08.024 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:06:08.200 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 246.3389ms
+2024-11-07 10:06:08.200 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 266.1228ms
+2024-11-07 10:06:08.200 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:06:08.200 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:06:08.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 276.3757ms
+2024-11-07 10:06:08.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 247.0194ms
+2024-11-07 10:06:08.206 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:06:08.206 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:06:08.206 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:06:08.208 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:06:08.216 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:06:08.218 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 9.6041ms
+2024-11-07 10:06:08.218 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:06:08.218 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 12.5745ms
+2024-11-07 10:06:08.220 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:06:08.221 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:06:08.221 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:06:08.221 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:06:08.222 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:06:08.222 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:06:08.222 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:06:08.224 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:06:08.224 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 3.6705ms
+2024-11-07 10:06:08.225 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:06:08.225 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 4.6681ms
+2024-11-07 10:06:08.226 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:06:08.234 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:06:08.245 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 18.6644ms
+2024-11-07 10:06:08.245 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:06:08.245 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 23.1596ms
+2024-11-07 10:06:08.250 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:06:08.251 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:06:08.251 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:06:08.251 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:06:08.254 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:06:08.264 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 13.1382ms
+2024-11-07 10:06:08.264 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:06:08.264 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 14.1152ms
+2024-11-07 10:07:49.301 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:07:49.301 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:49.301 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:07:49.301 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:07:49.305 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:07:49.305 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 3.6876ms
+2024-11-07 10:07:49.305 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:07:49.305 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 4.6317ms
+2024-11-07 10:07:50.078 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:07:50.079 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:50.079 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:07:50.079 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:07:50.081 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:07:50.093 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 14.3199ms
+2024-11-07 10:07:50.093 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:07:50.093 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 14.9113ms
+2024-11-07 10:07:50.095 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:07:50.095 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:50.095 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:07:50.095 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:07:50.098 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:07:50.100 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:07:50.100 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:50.100 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:07:50.100 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:07:50.104 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:07:50.104 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 4.1588ms
+2024-11-07 10:07:50.104 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:07:50.104 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 5.2049ms
+2024-11-07 10:07:50.106 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:07:50.107 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:50.108 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:07:50.108 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:07:50.112 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:07:50.113 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 4.7187ms
+2024-11-07 10:07:50.113 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 17.3587ms
+2024-11-07 10:07:50.113 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:07:50.113 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:07:50.113 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 6.7587ms
+2024-11-07 10:07:50.113 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 17.8373ms
+2024-11-07 10:07:53.498 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:07:53.498 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:53.498 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:07:53.499 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:07:53.501 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:07:53.501 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 2.4721ms
+2024-11-07 10:07:53.501 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:07:53.501 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 3.0403ms
+2024-11-07 10:07:54.232 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:07:54.232 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:54.232 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:07:54.232 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:07:54.235 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:07:54.244 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 11.7378ms
+2024-11-07 10:07:54.244 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:07:54.244 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 12.3334ms
+2024-11-07 10:07:54.246 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:07:54.246 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:54.246 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:07:54.246 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:07:54.249 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:07:54.249 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:54.249 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:07:54.249 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:07:54.249 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:07:54.253 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:07:54.253 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 3.406ms
+2024-11-07 10:07:54.253 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:07:54.253 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 3.8011ms
+2024-11-07 10:07:54.255 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:07:54.255 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:54.256 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:07:54.256 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:07:54.256 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:07:54.256 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:54.256 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:07:54.256 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:07:54.259 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:07:54.259 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 3.3538ms
+2024-11-07 10:07:54.259 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:07:54.259 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 4.5483ms
+2024-11-07 10:07:54.265 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:07:54.266 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 19.143ms
+2024-11-07 10:07:54.266 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:07:54.266 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 19.6323ms
+2024-11-07 10:07:54.273 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 16.5622ms
+2024-11-07 10:07:54.273 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:07:54.273 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 16.9154ms
+2024-11-07 10:07:54.275 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:07:54.275 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:07:54.275 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:07:54.275 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:07:54.277 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:07:54.286 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 10.7173ms
+2024-11-07 10:07:54.286 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:07:54.286 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 11.3021ms
+2024-11-07 10:11:36.697 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:11:36.697 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:36.698 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:36.698 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:11:36.699 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:11:36.701 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:36.701 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:36.701 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:11:36.705 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:11:36.705 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:36.705 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:36.706 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:11:36.716 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:11:36.716 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:11:36.718 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 11.6222ms
+2024-11-07 10:11:36.718 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:36.719 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 14.1319ms
+2024-11-07 10:11:36.719 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:11:36.719 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 16.909ms
+2024-11-07 10:11:36.719 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:36.719 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 20.7904ms
+2024-11-07 10:11:36.724 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:11:36.724 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:36.725 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:36.725 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:11:36.729 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:11:36.732 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 33.4739ms
+2024-11-07 10:11:36.733 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:36.733 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 36.3881ms
+2024-11-07 10:11:36.738 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 13.0279ms
+2024-11-07 10:11:36.738 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:36.738 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 14.227ms
+2024-11-07 10:11:36.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:11:36.755 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:36.755 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:36.755 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:11:36.758 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:11:36.766 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 10.1189ms
+2024-11-07 10:11:36.766 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:36.766 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 10.5747ms
+2024-11-07 10:11:41.797 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:11:41.797 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:11:41.797 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:41.797 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:41.797 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:41.797 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:41.797 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:11:41.797 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:11:41.800 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:11:41.801 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 3.0401ms
+2024-11-07 10:11:41.801 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:41.801 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:11:41.801 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 3.6137ms
+2024-11-07 10:11:41.809 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 11.8471ms
+2024-11-07 10:11:41.809 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:41.809 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 12.3906ms
+2024-11-07 10:11:41.818 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:11:41.818 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:41.818 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:41.818 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:11:41.820 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:11:41.821 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:11:41.821 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.437ms
+2024-11-07 10:11:41.821 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:41.821 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:41.821 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:41.821 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 2.8395ms
+2024-11-07 10:11:41.821 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:11:41.823 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:11:41.830 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 9.5459ms
+2024-11-07 10:11:41.830 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:41.830 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 9.8573ms
+2024-11-07 10:11:41.842 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:11:41.842 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:41.842 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:41.842 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:11:41.844 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:11:41.851 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 9.0051ms
+2024-11-07 10:11:41.851 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:41.851 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 9.518ms
+2024-11-07 10:11:45.243 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:11:45.243 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:45.243 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:45.243 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:11:45.246 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:11:45.256 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 12.9787ms
+2024-11-07 10:11:45.256 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:45.256 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 13.5605ms
+2024-11-07 10:11:50.032 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:11:50.032 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:50.032 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:11:50.032 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:11:50.035 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:11:50.035 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 2.5617ms
+2024-11-07 10:11:50.035 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:11:50.035 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 3.1512ms
+2024-11-07 10:11:51.055 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:11:51.055 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:51.055 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:51.055 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:11:51.057 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:11:51.066 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 11.5524ms
+2024-11-07 10:11:51.067 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:51.067 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 12.2618ms
+2024-11-07 10:11:51.068 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:11:51.068 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:51.068 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:51.068 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:11:51.070 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:11:51.072 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:11:51.072 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:51.072 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:51.073 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:11:51.073 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:11:51.073 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:51.073 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:51.073 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:11:51.076 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:11:51.076 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 3.118ms
+2024-11-07 10:11:51.076 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:51.077 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 4.815ms
+2024-11-07 10:11:51.077 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:11:51.077 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 3.8033ms
+2024-11-07 10:11:51.078 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:11:51.078 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 5.0804ms
+2024-11-07 10:11:51.081 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:11:51.081 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:51.081 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:51.081 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:11:51.084 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 14.8543ms
+2024-11-07 10:11:51.084 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:11:51.084 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 15.614ms
+2024-11-07 10:11:51.085 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:11:51.085 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:11:51.085 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:11:51.085 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:51.085 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:11:51.088 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:11:51.097 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 15.1647ms
+2024-11-07 10:11:51.097 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:51.097 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 15.6234ms
+2024-11-07 10:11:51.099 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 13.8614ms
+2024-11-07 10:11:51.099 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:11:51.099 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 14.3715ms
+2024-11-07 10:19:14.752 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/images/bruker1/bruker1.jpg - null null
+2024-11-07 10:19:14.752 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/images/bruker2/bruker2.jpg - null null
+2024-11-07 10:19:14.752 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/images/bruker3/bruker3.jpg - null null
+2024-11-07 10:19:14.756 +01:00 [INF] The file /images/bruker3/bruker3.jpg was not modified
+2024-11-07 10:19:14.756 +01:00 [INF] The file /images/bruker1/bruker1.jpg was not modified
+2024-11-07 10:19:14.756 +01:00 [INF] The file /images/bruker2/bruker2.jpg was not modified
+2024-11-07 10:19:14.756 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/images/bruker1/bruker1.jpg - 304 null image/jpeg 4.0975ms
+2024-11-07 10:19:14.756 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/images/bruker3/bruker3.jpg - 304 null image/jpeg 3.884ms
+2024-11-07 10:19:14.756 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/images/bruker2/bruker2.jpg - 304 null image/jpeg 4.2197ms
+2024-11-07 10:19:16.165 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-07 10:19:16.165 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:19:16.165 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-07 10:19:16.168 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:19:16.177 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:19:16.179 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 10.9325ms
+2024-11-07 10:19:16.179 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-07 10:19:16.179 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 145 application/json; charset=utf-8 14.2554ms
+2024-11-07 10:19:16.187 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/userlist - null null
+2024-11-07 10:19:16.187 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:19:16.187 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-07 10:19:16.187 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:19:16.190 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.UserDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:19:16.190 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 2.3637ms
+2024-11-07 10:19:16.190 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-11-07 10:19:16.190 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/userlist - 200 145 application/json; charset=utf-8 2.7397ms
+2024-11-07 10:19:16.196 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/images/bruker6/bruker6.jpg - null null
+2024-11-07 10:19:16.199 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/images/bruker7/bruker7.jpg - null null
+2024-11-07 10:19:16.243 +01:00 [INF] Sending file. Request path: '/images/bruker7/bruker7.jpg'. Physical path: 'C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api\wwwroot\images\bruker7\bruker7.jpg'
+2024-11-07 10:19:16.243 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/images/bruker7/bruker7.jpg - 200 1342093 image/jpeg 43.7927ms
+2024-11-07 10:19:16.263 +01:00 [INF] Sending file. Request path: '/images/bruker6/bruker6.jpg'. Physical path: 'C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api\wwwroot\images\bruker6\bruker6.jpg'
+2024-11-07 10:19:16.263 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/images/bruker6/bruker6.jpg - 200 2207768 image/jpeg 67.2104ms
+2024-11-07 10:19:20.139 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:19:20.140 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:19:20.140 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:19:20.140 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:19:20.140 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:19:20.140 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:19:20.140 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:19:20.140 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:19:20.142 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:19:20.144 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:19:20.154 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 14.4038ms
+2024-11-07 10:19:20.154 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:19:20.155 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 15.1277ms
+2024-11-07 10:19:20.156 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 15.6355ms
+2024-11-07 10:19:20.156 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:19:20.156 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 16.1662ms
+2024-11-07 10:23:45.571 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:23:45.571 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:23:45.572 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:23:45.572 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:23:45.576 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:23:45.576 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 4.0831ms
+2024-11-07 10:23:45.576 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:23:45.576 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 6.3815ms
+2024-11-07 10:23:46.403 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:23:46.403 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:23:46.403 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:23:46.403 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:23:46.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:23:46.405 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:23:46.405 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:23:46.405 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:23:46.406 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:23:46.406 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.4167ms
+2024-11-07 10:23:46.406 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:23:46.406 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 2.7634ms
+2024-11-07 10:23:46.407 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:23:46.407 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 1.9331ms
+2024-11-07 10:23:46.407 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:23:46.408 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 2.902ms
+2024-11-07 10:25:17.047 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:25:17.047 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:25:17.047 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:25:17.048 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:25:17.051 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:25:17.052 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 3.9966ms
+2024-11-07 10:25:17.052 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:25:17.052 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 4.8146ms
+2024-11-07 10:25:18.021 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:25:18.021 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:25:18.021 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:25:18.021 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:25:18.021 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:25:18.021 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:25:18.021 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:25:18.021 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:25:18.023 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:25:18.023 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.097ms
+2024-11-07 10:25:18.023 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:25:18.023 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 2.772ms
+2024-11-07 10:25:18.028 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:25:18.028 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 6.7032ms
+2024-11-07 10:25:18.028 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:25:18.028 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 7.0745ms
+2024-11-07 10:26:20.955 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:26:20.955 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:26:20.955 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:26:20.955 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:26:20.957 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:26:20.965 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 9.6862ms
+2024-11-07 10:26:20.965 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:26:20.965 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 10.0367ms
+2024-11-07 10:26:20.969 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:26:20.969 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:26:20.969 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:26:20.969 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:26:20.971 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:26:20.975 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:26:20.975 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:26:20.975 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:26:20.975 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:26:20.975 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:26:20.976 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:26:20.976 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:26:20.976 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:26:20.981 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:26:20.981 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 5.6042ms
+2024-11-07 10:26:20.982 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:26:20.982 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 7.7867ms
+2024-11-07 10:26:20.983 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:26:20.983 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 7.0592ms
+2024-11-07 10:26:20.983 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:26:20.983 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 7.7561ms
+2024-11-07 10:26:20.984 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 14.8731ms
+2024-11-07 10:26:20.984 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:26:20.984 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 15.6842ms
+2024-11-07 10:28:26.495 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:28:26.495 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:28:26.495 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:26.495 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:26.495 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:28:26.495 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:28:26.495 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:28:26.496 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:28:26.501 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:28:26.501 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:28:26.514 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 17.9656ms
+2024-11-07 10:28:26.514 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:28:26.514 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 18.7801ms
+2024-11-07 10:28:26.514 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 18.5519ms
+2024-11-07 10:28:26.514 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:28:26.514 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 19.7348ms
+2024-11-07 10:28:26.522 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:28:26.522 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:28:26.522 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:26.522 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:28:26.522 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:26.522 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:28:26.522 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:28:26.522 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:28:26.524 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:28:26.525 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.5423ms
+2024-11-07 10:28:26.525 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:28:26.525 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 2.9887ms
+2024-11-07 10:28:26.525 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:28:26.525 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.6872ms
+2024-11-07 10:28:26.525 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:28:26.525 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 3.0827ms
+2024-11-07 10:28:30.377 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:28:30.377 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:30.378 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:28:30.378 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:28:30.380 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:28:30.380 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 2.1487ms
+2024-11-07 10:28:30.380 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:28:30.380 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 2.6235ms
+2024-11-07 10:28:31.565 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:28:31.565 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:28:31.565 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:31.565 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:31.565 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:28:31.565 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:28:31.565 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:28:31.565 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:28:31.571 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:28:31.572 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:28:31.584 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 18.8022ms
+2024-11-07 10:28:31.584 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:28:31.584 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 19.3934ms
+2024-11-07 10:28:31.585 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 19.5982ms
+2024-11-07 10:28:31.585 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:28:31.585 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 20.532ms
+2024-11-07 10:28:31.592 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:28:31.592 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:31.593 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:28:31.593 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:28:31.593 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:31.593 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:28:31.593 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:28:31.593 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:28:31.595 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:28:31.595 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.6007ms
+2024-11-07 10:28:31.595 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:28:31.595 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:28:31.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 2.9894ms
+2024-11-07 10:28:31.596 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.7416ms
+2024-11-07 10:28:31.596 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:28:31.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 3.4802ms
+2024-11-07 10:28:31.600 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:28:31.600 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:31.600 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:28:31.600 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:28:31.601 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:28:31.602 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:28:31.602 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:28:31.602 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:28:31.603 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:28:31.605 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:28:31.614 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 13.1284ms
+2024-11-07 10:28:31.614 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:28:31.614 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 13.7871ms
+2024-11-07 10:28:31.616 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 13.6363ms
+2024-11-07 10:28:31.616 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:28:31.616 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 14.5418ms
+2024-11-07 10:29:14.569 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:29:14.569 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:14.569 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:14.569 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:29:14.571 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:29:14.579 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 10.0437ms
+2024-11-07 10:29:14.579 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:14.579 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 10.4286ms
+2024-11-07 10:29:40.643 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:29:40.643 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:40.643 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:29:40.643 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:29:40.645 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:29:40.645 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 1.731ms
+2024-11-07 10:29:40.645 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:29:40.645 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 2.2015ms
+2024-11-07 10:29:41.475 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:29:41.475 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:41.475 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:41.475 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:29:41.478 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:29:41.478 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:29:41.478 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:41.478 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:41.479 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:29:41.485 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:29:41.493 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 17.9979ms
+2024-11-07 10:29:41.493 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:41.493 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 18.3922ms
+2024-11-07 10:29:41.496 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 17.8529ms
+2024-11-07 10:29:41.496 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:41.496 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 18.5478ms
+2024-11-07 10:29:41.500 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:29:41.500 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:41.500 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:29:41.501 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:29:41.501 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:29:41.501 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:41.501 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:29:41.501 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:29:41.503 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:29:41.503 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.6655ms
+2024-11-07 10:29:41.503 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:29:41.503 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 3.2602ms
+2024-11-07 10:29:41.503 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:29:41.504 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.5941ms
+2024-11-07 10:29:41.504 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:29:41.504 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 2.8912ms
+2024-11-07 10:29:43.883 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:29:43.883 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:43.883 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:29:43.883 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:29:43.885 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:29:43.885 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 1.6511ms
+2024-11-07 10:29:43.885 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:29:43.885 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 2.1239ms
+2024-11-07 10:29:44.580 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:29:44.580 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/2 - null null
+2024-11-07 10:29:44.581 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:44.581 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:44.581 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:44.581 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:44.581 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:29:44.581 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:29:44.583 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:29:44.584 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:29:44.596 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 15.7422ms
+2024-11-07 10:29:44.596 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:44.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 16.2219ms
+2024-11-07 10:29:44.597 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 16.4948ms
+2024-11-07 10:29:44.597 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:29:44.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/2 - 200 1007 application/json; charset=utf-8 17.0101ms
+2024-11-07 10:29:44.602 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:29:44.603 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:29:44.603 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:44.603 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:44.603 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:29:44.603 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:29:44.603 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:29:44.603 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:29:44.605 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:29:44.605 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.0444ms
+2024-11-07 10:29:44.605 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:29:44.605 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 3.2375ms
+2024-11-07 10:29:44.606 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:29:44.606 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.9872ms
+2024-11-07 10:29:44.606 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:29:44.606 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 3.4571ms
+2024-11-07 10:29:44.608 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:29:44.608 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:44.608 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:29:44.609 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:29:44.610 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:29:44.611 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/userapi/2 - null null
+2024-11-07 10:29:44.611 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:29:44.611 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:29:44.611 +01:00 [INF] Route matched with {action = "GetUser", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUser(Int32) on controller systemOut.Controllers.UserAPIController (api).
+2024-11-07 10:29:44.614 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.UserProxy'.
+2024-11-07 10:29:44.622 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 13.109ms
+2024-11-07 10:29:44.622 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:29:44.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 13.5989ms
+2024-11-07 10:29:44.625 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.GetUser (api) in 13.6228ms
+2024-11-07 10:29:44.625 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.GetUser (api)'
+2024-11-07 10:29:44.625 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/userapi/2 - 200 1074 application/json; charset=utf-8 14.114ms
+2024-11-07 10:32:06.954 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-07 10:32:06.954 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:32:06.954 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:32:06.954 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:32:06.958 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:32:06.958 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 3.88ms
+2024-11-07 10:32:06.958 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-07 10:32:06.958 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 625 application/json; charset=utf-8 4.6211ms
+2024-11-07 10:32:07.753 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:32:07.753 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:32:07.753 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/1 - null null
+2024-11-07 10:32:07.753 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:32:07.753 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:32:07.753 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:32:07.753 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:32:07.753 +01:00 [INF] Route matched with {action = "GetNoteById", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNoteById(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-07 10:32:07.759 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:32:07.759 +01:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.NoteProxy'.
+2024-11-07 10:32:07.772 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 18.2407ms
+2024-11-07 10:32:07.772 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:32:07.772 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 18.5292ms
+2024-11-07 10:32:07.772 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNoteById (api) in 18.8143ms
+2024-11-07 10:32:07.772 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNoteById (api)'
+2024-11-07 10:32:07.772 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/1 - 200 886 application/json; charset=utf-8 19.7039ms
+2024-11-07 10:32:07.777 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:32:07.777 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:32:07.777 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:32:07.777 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - null null
+2024-11-07 10:32:07.777 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:32:07.778 +01:00 [INF] CORS policy execution successful.
+2024-11-07 10:32:07.778 +01:00 [INF] Executing endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:32:07.778 +01:00 [INF] Route matched with {action = "GetComments", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetComments() on controller systemOut.Controllers.CommentAPIController (api).
+2024-11-07 10:32:07.780 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:32:07.780 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.8369ms
+2024-11-07 10:32:07.780 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:32:07.780 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 3.7128ms
+2024-11-07 10:32:07.781 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Comment, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.CommentDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-07 10:32:07.781 +01:00 [INF] Executed action systemOut.Controllers.CommentAPIController.GetComments (api) in 2.9496ms
+2024-11-07 10:32:07.781 +01:00 [INF] Executed endpoint 'systemOut.Controllers.CommentAPIController.GetComments (api)'
+2024-11-07 10:32:07.781 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/commentapi/getcomments - 200 143 application/json; charset=utf-8 3.2247ms

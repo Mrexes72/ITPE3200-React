@@ -1,0 +1,26 @@
+2024-10-30 09:53:26.348 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-10-30 09:53:26.392 +01:00 [INF] Now listening on: https://localhost:7285
+2024-10-30 09:53:26.394 +01:00 [INF] Now listening on: http://localhost:5269
+2024-10-30 09:53:26.399 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-30 09:53:26.401 +01:00 [INF] Hosting environment: Development
+2024-10-30 09:53:26.402 +01:00 [INF] Content root path: C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api
+2024-10-30 09:53:26.628 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-10-30 09:53:26.656 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 29.5722ms
+2024-10-30 09:53:26.662 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-10-30 09:53:32.929 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/index.html - null null
+2024-10-30 09:53:32.976 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/index.html - 200 null text/html;charset=utf-8 46.7763ms
+2024-10-30 09:53:32.996 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - null null
+2024-10-30 09:53:33.005 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-30 09:53:33.005 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/swagger-ui.css - 499 143943 text/css 9.7219ms
+2024-10-30 09:53:33.094 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/favicon-16x16.png - null null
+2024-10-30 09:53:33.095 +01:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-10-30 09:53:33.095 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/favicon-16x16.png - 499 665 image/png 1.3418ms
+2024-10-30 09:53:33.114 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - null null
+2024-10-30 09:53:33.172 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.4124ms
+2024-10-30 09:53:37.510 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/(controller) - null null
+2024-10-30 09:53:37.514 +01:00 [INF] Executing endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-30 09:53:37.528 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller systemOut.Controllers.UserAPIController (api).
+2024-10-30 09:53:37.677 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[systemOut.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-30 09:53:37.761 +01:00 [INF] Executed action systemOut.Controllers.UserAPIController.UserList (api) in 231.0675ms
+2024-10-30 09:53:37.761 +01:00 [INF] Executed endpoint 'systemOut.Controllers.UserAPIController.UserList (api)'
+2024-10-30 09:53:37.767 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/(controller) - 200 145 application/json; charset=utf-8 257.1677ms

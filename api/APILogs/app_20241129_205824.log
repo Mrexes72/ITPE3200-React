@@ -1,0 +1,57 @@
+2024-11-29 20:58:25.566 +01:00 [INF] Now listening on: https://localhost:7285
+2024-11-29 20:58:25.573 +01:00 [INF] Now listening on: http://localhost:5269
+2024-11-29 20:58:25.578 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 20:58:25.581 +01:00 [INF] Hosting environment: Development
+2024-11-29 20:58:25.582 +01:00 [INF] Content root path: C:\Users\Per\Desktop\ReactBranch\ITPE3200-React\api
+2024-11-29 20:58:25.829 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/ - null null
+2024-11-29 20:58:25.858 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/ - 404 0 null 30.5048ms
+2024-11-29 20:58:25.864 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/, Response status code: 404
+2024-11-29 20:58:25.887 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/favicon.ico - null null
+2024-11-29 20:58:25.895 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/favicon.ico - 499 null null 8.1233ms
+2024-11-29 20:58:25.895 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7285/favicon.ico, Response status code: 499
+2024-11-29 20:58:50.082 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7285/api/noteapi/create - null null
+2024-11-29 20:58:50.088 +01:00 [INF] CORS policy execution successful.
+2024-11-29 20:58:50.089 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7285/api/noteapi/create - 204 null null 6.0697ms
+2024-11-29 20:58:50.092 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7285/api/noteapi/create - application/json 900
+2024-11-29 20:58:50.093 +01:00 [INF] CORS policy execution successful.
+2024-11-29 20:58:50.093 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.Create (api)'
+2024-11-29 20:58:50.109 +01:00 [INF] Route matched with {action = "Create", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(systemOut.DTOs.NoteDto) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-29 20:58:50.201 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-29 20:58:50.235 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.Create (api) in 123.0639ms
+2024-11-29 20:58:50.235 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.Create (api)'
+2024-11-29 20:58:50.236 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7285/api/noteapi/create - 400 277 application/problem+json; charset=utf-8 143.9403ms
+2024-11-29 20:58:54.816 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7285/api/noteapi/create - application/json 842
+2024-11-29 20:58:54.817 +01:00 [INF] CORS policy execution successful.
+2024-11-29 20:58:54.818 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.Create (api)'
+2024-11-29 20:58:54.818 +01:00 [INF] Route matched with {action = "Create", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(systemOut.DTOs.NoteDto) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-29 20:58:54.969 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'systemOut.Models.Note'.
+2024-11-29 20:58:54.984 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.Create (api) in 165.7053ms
+2024-11-29 20:58:54.984 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.Create (api)'
+2024-11-29 20:58:54.985 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7285/api/noteapi/create - 201 882 application/json; charset=utf-8 169.4619ms
+2024-11-29 20:58:55.032 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-29 20:58:55.032 +01:00 [INF] CORS policy execution successful.
+2024-11-29 20:58:55.032 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-29 20:58:55.035 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-29 20:58:55.047 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - null null
+2024-11-29 20:58:55.047 +01:00 [INF] CORS policy execution successful.
+2024-11-29 20:58:55.047 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-29 20:58:55.047 +01:00 [INF] Route matched with {action = "GetNotes", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotes() on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-29 20:58:55.164 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 20:58:55.164 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[systemOut.Models.Note, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[systemOut.DTOs.NoteDto, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 20:58:55.166 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 130.3898ms
+2024-11-29 20:58:55.166 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.GetNotes (api) in 118.3946ms
+2024-11-29 20:58:55.166 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-29 20:58:55.166 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.GetNotes (api)'
+2024-11-29 20:58:55.167 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 1601 application/json; charset=utf-8 119.8742ms
+2024-11-29 20:58:55.167 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7285/api/noteapi/getnotes - 200 1601 application/json; charset=utf-8 134.712ms
+2024-11-29 20:59:02.332 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7285/api/noteapi/delete/12 - null null
+2024-11-29 20:59:02.332 +01:00 [INF] CORS policy execution successful.
+2024-11-29 20:59:02.332 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7285/api/noteapi/delete/12 - 204 null null 0.5424ms
+2024-11-29 20:59:02.334 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7285/api/noteapi/delete/12 - null null
+2024-11-29 20:59:02.334 +01:00 [INF] CORS policy execution successful.
+2024-11-29 20:59:02.334 +01:00 [INF] Executing endpoint 'systemOut.Controllers.NoteAPICOntroller.DeleteConfirmed (api)'
+2024-11-29 20:59:02.337 +01:00 [INF] Route matched with {action = "DeleteConfirmed", controller = "NoteAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirmed(Int32) on controller systemOut.Controllers.NoteAPICOntroller (api).
+2024-11-29 20:59:02.444 +01:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-29 20:59:02.444 +01:00 [INF] Executed action systemOut.Controllers.NoteAPICOntroller.DeleteConfirmed (api) in 106.5266ms
+2024-11-29 20:59:02.444 +01:00 [INF] Executed endpoint 'systemOut.Controllers.NoteAPICOntroller.DeleteConfirmed (api)'
+2024-11-29 20:59:02.444 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7285/api/noteapi/delete/12 - 204 null null 110.1374ms

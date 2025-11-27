@@ -1,0 +1,29 @@
+# VS Code
+
+.vscode/
+
+# OS-spesifikke filer
+
+.DS_Store
+Thumbs.db
+
+# .NET build og temp filer
+
+api/bin/
+api/obj/
+
+# Node.js dependencies
+
+systemout/node_modules/
+
+# Loggfiler
+
+*.log
+
+# Miljøfiler
+
+*.env
+
+# wwwroot images (ikke last opp demo-bilder)
+
+api/wwwroot/images/

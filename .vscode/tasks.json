@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0", // Specifices the version of the tasks configuration schema.
+    "tasks": [
+      {
+        "label": "build", // A descriptive label for the task, userd to reference it in other configurations.
+        "command": "dotnet",
+        "type": "shell",
+        "args": [
+          "build",
+          "${workspaceFolder}/api/api.csproj"
+        ],
+        "problemMatcher": "$msCompile"
+      }
+    ]
+}
